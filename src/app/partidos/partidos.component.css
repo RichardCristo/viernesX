@@ -1,0 +1,129 @@
+.container {
+    background-color: rgba(13.3, 13.3, 13.3, 0.959); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bet {
+    font-size: 24px;
+    color: #ffffff; 
+  }
+  
+  .poli {
+    font-size: 24px;
+    color: #2BFFAA; 
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ddd; 
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ccc; 
+  }
+  
+  button {
+    background-color: #555;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  td img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+    margin-left: 10px; 
+  }
+
+  .green-button {
+    background-color: #2BFFAA; 
+    color: #ffffff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius:10px ; 
+    position: absolute;
+    top: 0;
+    right: 10px; 
+    cursor: pointer;
+  }
+  
+  .green-button:hover {
+    background-color: #1FCC88; 
+  }
+  
+  .apuesta-card {
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 5px 0px #000000;
+    background-color: #2F2F2F;
+    margin: 0 auto;
+  }
+  
+  .equipo-local,
+  .equipo-visitante {
+    justify-content: left;
+    align-items: top;
+    margin-top: 20px;
+  }
+  
+  .equipo-local img,
+  .equipo-visitante img {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .opciones-apuesta {
+    background-color: #3A3A3A;
+    padding: 20px;
+  }
+  
+  .boton-resultado1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .boton-resultado {
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #2BFFAA; 
+    color: #ffffff; 
+  }
+
+  .boton-resultado:hover {
+    background-color: #1FCC88; 
+  }
+  
+  input[type="number"] {
+    font-size: 16px;
+    width: 100px;
+  }
+  
+  button[type="submit"] {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  
+  

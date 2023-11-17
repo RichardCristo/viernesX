@@ -1,0 +1,40 @@
+/* Estilo del fondo negro para el cuerpo de la página */
+body {
+    background-color: rgba(13.3, 13.3, 13.3, 0.959);
+    color: white; /* Color del texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Estilo del contenedor con fondo gris */
+  .container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para resaltar el contenedor */
+  }
+  
+  /* Estilo del botón */
+  button {
+    display: block;
+    margin-top: 10px; /* Espacio entre el input y el botón */
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #b{
+    margin-left: 50px;
+    color: white;
+    background-color: #2BFFAA;;
+}
+input[type="text"] {
+    border: none;
+    outline: none;
+  }

@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(13.3, 13.3, 13.3, 0.959);
+    height: 100vh;
+    
+}
+label{
+    color: white;
+}
+h1{
+    color: aliceblue;
+}
+span{   
+    color: #2BFFAA;
+}
+#Email1{
+    margin: auto;
+    width: auto;
+}
+#Email2{
+    margin: auto;
+    width: auto;
+    margin-left: 100px;
+}
+#password1{
+    margin: auto;
+    width: auto;
+}
+#password2{
+    margin: auto;
+    width: auto;
+    margin-left: 85px;
+}
+#b{
+    margin-left: 85px;
+    color: white;
+    background-color: #2BFFAA;;
+}
+#escritura{
+
+    margin-left: 8px;
+
+}
+

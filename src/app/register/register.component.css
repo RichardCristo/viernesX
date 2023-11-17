@@ -1,0 +1,55 @@
+
+body {
+    background-color: rgba(13.3, 13.3, 13.3, 0.959);
+    color: white;
+    margin: 0; 
+    padding: 0; 
+    height: 140vh;
+  }
+  
+
+  #formulario {
+    background-color: gray;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    border-radius: 10px; 
+  }
+  
+  input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #444;
+    color: white; 
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+  
+
+  #botonSiguiente {
+    background-color: #2BFFAA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+ 
+  input[type="text"],
+  input[type="number"],
+  input[type="string"] {
+    border: none;
+    outline: none;
+  }
+  
+ 
+  #poli {
+    color: #2BFFAA; 
+  }
+  
+
+  

@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="title">
+      <span class="bet">Bet</span><span class="poli">poli</span>
+      <button class="green-button" routerLink="/login">Inicia Sesion</button>
+    </div>
+    
+    <div *ngIf="mostrarCard" class="apuesta-card">
+      <div class="equipo-info">
+        <div class="equipo-local">
+          {{ equipoLocal }}
+        </div>
+        <div class="equipo-visitante">
+          {{ equipoVisitante }}
+        </div>
+      </div>
+      <div class="opciones-apuesta">
+        <button class="boton-resultado">Gana {{ equipoLocal }}</button>
+        <button class="boton-resultado1">Empate</button>
+        <button class="boton-resultado">Gana {{ equipoVisitante }}</button>
+        <br>
+        <input type="number" placeholder="Monto de apuesta">
+      </div>
+      <button>Realizar Apuesta</button>
+    </div>
+  
+    <table *ngIf="verTabla">
+      <thead>
+        <tr>
+          <th>local</th>
+          <th>visitante</th>
+          <th>gol local</th>
+          <th>gol visitante</th>
+          <th>fecha</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of partidosLista; let i = index" [attr.data-index]="i">
+          <td>
+            <img src="../../assets/logo1.png" alt="Logo 1"> 
+            {{ partidosLista[i].local }}
+          </td>
+          <td>
+            {{ partidosLista[i].visitante }}
+            <img src="../../assets/logo2.png" alt="Logo 2"> 
+          </td>
+          <td>{{ partidosLista[i].gol_local }}</td>
+          <td>{{ partidosLista[i].gol_visitante }}</td>
+          <td>{{ partidosLista[i].fecha }}</td>
+          <button (click)="mostrarTarjetaApuesta(partidosLista[i].local, partidosLista[i].visitante)">Apostar</button>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
